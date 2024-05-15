@@ -1,4 +1,8 @@
-# accident_reason_answering
+# 转换事故文件至MP4
 
-### 不同的功能代码分别放在不同的branch中：  
-将事故文件夹转为视频：ConvertMP4
+package:  
+pip install opencv-python
+
+### 设置根文件夹路径和输出文件夹路径
+root_folder = './total_raw'   # 修改为存放事故文件夹的文件夹
+output_folder = './total_mp4' # 修改为视频存放目标文件夹
