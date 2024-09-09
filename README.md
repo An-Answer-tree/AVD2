@@ -10,7 +10,7 @@ We propose a novel framework, CATS (Critical Adaptive Transformer for Self-drivi
 # Note
 We have uploaded the requirement environment of our CATS system.  
 We have released the data preprocessing codes ("/root/src/prepro/") and the evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
-We have released the preprocessed dataset of the EMMAU dataset.  
+We have released the part of the preprocessed dataset of the EMMAU dataset ("/root/Processed_Dataset/").  
 We will release the entired code (including the checkpoints file) of the CATS system soon.  
 We will release the dataset of the generated accident video (EMMAU dataset).  
 We will upload the detailed instructions of the readme document.  
