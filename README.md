@@ -10,11 +10,11 @@ We propose a novel framework, CATS (Critical Adaptive Transformer for Self-drivi
 # Note
 We have uploaded the requirement environment of our CATS system.  
 We have released the data preprocessing codes ("/root/src/prepro/") and the evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
-We have released the part of the preprocessed dataset of the EMMAU dataset ("/root/Processed_Dataset/").  
-We will release the entired code (including the checkpoints file) of the CATS system soon.  
-We will release the dataset of the generated accident video (EMMAU dataset).  
-We will upload the detailed instructions of the readme document.  
-We will upload the finetuned Open-Sora 1.2 model, which is used for generating the EMMAU Dataset.
+We have released the part of the preprocessed dataset of the EMMAU dataset ("/root/Processed_Dataset/"). And will released all of them.
+We will soon release the entired code (including the checkpoints file) of the CATS system soon.  
+We will soon release the dataset of the generated accident video (raw EMMAU dataset).   
+We will soon upload the finetuned Open-Sora 1.2 model, which is used for generating the EMMAU Dataset.
+We will soon upload the detailed instructions of the readme document (how to deployment the project). 
 
 # More Details
 Our novel CATS framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
