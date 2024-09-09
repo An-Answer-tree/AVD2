@@ -68,4 +68,4 @@ Vehicles meet on the road; Vehicles drive too fast with short braking distance.
 Vehicles should not exceed the speed limit during driving, especially in areas with many pedestrians. Vehicles should slow down when passing intersections or crosswalks, and observe the traffic carefully.
 
 # Acknowledgements
-We are grateful for the support of the Institute of Intelligent Industry at Tsinghua University, Mr. Bu Jin for his guidance and help on our project, and the LOTVS-MMAU (Multi-Modal Accident video Understanding) team for open-sourcing and sharing the MM-AU dataset.
+We are grateful for the support of the Institute for AI Research (AIR) at Tsinghua University, Mr. Bu Jin for his guidance and help on our project, and the LOTVS-MMAU (Multi-Modal Accident video Understanding) team for open-sourcing and sharing the MM-AU dataset.
