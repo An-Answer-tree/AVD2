@@ -23,10 +23,10 @@ The codes and more information about ADAPT and SCST can be found here:
 [SCST: https://arxiv.org/abs/1612.00563](https://arxiv.org/abs/1612.00563)  
 
 # Visualization
-This is the example of the accident frames of our EMMAU dataset:  
+## This is the example of the accident frames of our EMMAU dataset:  
 ![The example frame](./images/EMMAU_accident_example.png)  
-This is the visualization of the Understanding ability of our CATS system (comparred with the ChatGPT-4 & ground truth):  
 
+## This is the visualization of the Understanding ability of our CATS system (comparred with the ChatGPT-4 & ground truth):  
 ### Accident example 1:  
 ![Example of EMMAU 1](./images/1_accident_2.png)  
 <span style="color:black">**CATS Prediction**</span>  
