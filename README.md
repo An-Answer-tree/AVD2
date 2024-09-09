@@ -19,8 +19,8 @@ We will upload the finetuned Open-Sora 1.2 model, which is used for generating t
 # More Details
 Our novel CATS framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
 The codes and more information about ADAPT and SCST can be found here:  
-[ADAPT](https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file)  
-[SCST](https://arxiv.org/abs/1612.00563)  
+[ADAPT: https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file](https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file)  
+[SCST: https://arxiv.org/abs/1612.00563](https://arxiv.org/abs/1612.00563)  
 
 # Visualization
 This is the example of the accident frames of our EMMAU dataset:  
