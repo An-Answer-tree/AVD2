@@ -22,10 +22,10 @@ This is the visualization of the Understanding ability of our CATS system (compa
 1. Accident example one
 
 <span style="color:black">**CATS Prediction**</span>  
-<span style="color:red">**Description:**</span>
+<span style="color👱‍♂️">**Description:**</span>
  A vehicle changes lanes with the same direction to ego-car; Vehicles don't give way to normal driving vehicles when turning or changing lanes.  
 
-<span style="color:red">**Description:**</span>
+<span style="color📘">**Description:**</span>
 Before turning or changing lanes, vehicles should turn on the turn signal in advance, observe the surrounding vehicles and control the speed. When driving, vehicles should abide by traffic rules, and give the way for the normal running vehicles. Vehicles that will enter the main road should give way to the vehicles which drive on the main road or leave the main road. Vehicles that drive on the auxiliary road should give way to the vehicles which drive off the main road.
 
 
