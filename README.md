@@ -29,7 +29,7 @@ This is the visualization of the Understanding ability of our CATS system (compa
 
 ### Accident example 1:  
 ![Example of EMMAU 1](./images/1_accident_2.png)  
-<span style="color:black">**CATS Prediction**</span>
+<span style="color:black">**CATS Prediction**</span>  
 <span style="color👱‍♂️">**Description:**</span>
  A vehicle changes lanes with the same direction to ego-car; Vehicles don't give way to normal driving vehicles when turning or changing lanes.  
 <span style="color📘">**Avoidance:**</span>
