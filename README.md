@@ -35,7 +35,7 @@ This is the visualization of the Understanding ability of our CATS system (compa
 <span style="color📘">**Avoidance:**</span>
 Before turning or changing lanes, vehicles should turn on the turn signal in advance, observe the surrounding vehicles and control the speed. When driving, vehicles should abide by traffic rules, and give the way for the normal running vehicles. Vehicles that will enter the main road should give way to the vehicles which drive on the main road or leave the main road. Vehicles that drive on the auxiliary road should give way to the vehicles which drive off the main road.
 
-<span style="color:black">**ChatGPT4 Prediction:**</span>  
+<span style="color:black">**ChatGPT4 Prediction**</span>  
 <span style="color👱‍♂️">**Description:**</span>
  A bus and a sedan collided at an intersection; The sedan ran a red light while the bus was crossing.   
 <span style="color📘">**Avoidance:**</span>
@@ -55,7 +55,7 @@ A vehicle changes lanes with the same direction to ego-car; Vehicles don't give 
 <span style="color📘">**Avoidance:**</span>
 Ego-cars should not exceed the speed limit during driving, slow down when passing intersections or crosswalks, especially for areas with many pedestrians.
 
-<span style="color:black">**ChatGPT4 Prediction:**</span>  
+<span style="color:black">**ChatGPT4 Prediction**</span>  
 <span style="color👱‍♂️">**Description:**</span>
  High-speed highway collision; One car attempted a sudden lane change without signaling, cutting off another.   
 <span style="color📘">**Avoidance:**</span>
