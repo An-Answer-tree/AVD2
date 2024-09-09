@@ -1,4 +1,5 @@
 # CATS: Critical Adaptive Transformer for Self-driving Captions
+![The Framework Architecture](./images/Framework.png)
 ### This repository is an official implementation of CATS: Critical Adaptive Transformer for Self-driving Captions.
 Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Kairui Ding and Hao Zhao from Institute for AI Industry Research(AIR), Tsinghua University.
 ### Our Project Video is available at:
@@ -13,4 +14,10 @@ We have released the preprocessed dataset of the EMMAU dataset.
 We will release the entired code (including the checkpoints file) of the CATS system soon.  
 We will release the dataset of the generated accident video (EMMAU dataset).  
 We will upload the detailed instructions of the readme document.  
+
+# Visualization
+This is the example of the accident frames of our EMMAU dataset:  
+![The example frame](./images/EMMAU_accident_example.png)  
+This is the visualization of the Understanding ability of our CATS system (comparred with the ChatGPT-4 & ground truth):  
+![The example frame](./images/Understanding_ability_visualization.png) 
 
