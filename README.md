@@ -14,6 +14,13 @@ We have released the part of the preprocessed dataset of the EMMAU dataset ("/ro
 We will release the entired code (including the checkpoints file) of the CATS system soon.  
 We will release the dataset of the generated accident video (EMMAU dataset).  
 We will upload the detailed instructions of the readme document.  
+We will upload the finetuned Open-Sora 1.2 model, which is used for generating the EMMAU Dataset.
+
+# More Details
+Our novel CATS framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
+The codes and more information about ADAPT and SCST can be found here:  
+[ADAPT](https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file)  
+[SCST](https://arxiv.org/abs/1612.00563)  
 
 # Visualization
 This is the example of the accident frames of our EMMAU dataset:  
