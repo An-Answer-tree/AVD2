@@ -41,7 +41,7 @@ Always obey traffic signals and signs. Increase vigilance when approaching inter
 Before turning or changing lanes, vehicles should turn on the turn signal in advance, observe the surrounding vehicles and control the speed. When driving, vehicles should abide by traffic rules, and give the way for the normal running vehicles. Vehicles that will enter the main road should give way to the vehicles which drive on the main road or leave the main road. Vehicles that drive on the auxiliary road should give way to the vehicles which drive off the main road.  
 
 ### Accident example 2:  
-![Eample of EMMAU 2](./images2_accident_2.png)  
+![Example of EMMAU 2](images/2_accident_2.png)  
 <span style="color:black">**CATS Prediction**</span>  
 <span style="color👱‍♂️">**Description:**</span>
 A vehicle changes lanes with the same direction to ego-car; Vehicles don't give way to normal driving vehicles when turning or changing lanes.    
