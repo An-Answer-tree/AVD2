@@ -19,5 +19,5 @@ We will upload the detailed instructions of the readme document.
 This is the example of the accident frames of our EMMAU dataset:  
 ![The example frame](./images/EMMAU_accident_example.png)  
 This is the visualization of the Understanding ability of our CATS system (comparred with the ChatGPT-4 & ground truth):  
-![The example frame](./images/Understanding_ability_visualization.png) 
+![The example frame](./images/Understanding_ability.png) 
 
