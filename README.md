@@ -1,4 +1,4 @@
-# CATS: Critical Adaptive Transformer for Self-driving Captions
+# AVD2: Accident Video Diffusion for Accident Video Description
 ![The Framework Architecture](./images/Framework.png)
 ### This repository is an official implementation of CATS: Critical Adaptive Transformer for Self-driving Captions.
 Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Kairui Ding and Hao Zhao from Institute for AI Industry Research(AIR), Tsinghua University.
