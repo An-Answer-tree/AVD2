@@ -1,6 +1,6 @@
 # AVD2: Accident Video Diffusion for Accident Video Description
 
-### The First Work to Generat Accident Videos:
+### The First Work to Generate Accident Videos:
 ![The Teaser](./images/teaser.png)
 
 ### This repository is an official implementation of AVD2: Accident Video Diffusion for Accident Video Description.
