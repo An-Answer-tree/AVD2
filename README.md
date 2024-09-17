@@ -44,7 +44,7 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 <span style="color📘">**Avoidance:**</span>
 Before turning or changing lanes, vehicles should turn on the turn signal in advance, observe the surrounding vehicles and control the speed. When driving, vehicles should abide by traffic rules, and give the way for the normal running vehicles. Vehicles that will enter the main road should give way to the vehicles which drive on the main road or leave the main road. Vehicles that drive on the auxiliary road should give way to the vehicles which drive off the main road.
 
-<span style="color:black">**ChatGPT-4O Prediction**</span>  
+<span style="color:black">**ChatGPT-4o Prediction**</span>  
 <span style="color👱‍♂️">**Description:**</span>
  A vehicle approaches a busy intersection and fails to notice another car coming from the side; The vehicle abruptly brakes to avoid a collision, but the close proximity creates a dangerous situation.   
 <span style="color📘">**Avoidance:**</span>
