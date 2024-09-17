@@ -1,7 +1,9 @@
 # AVD2: Accident Video Diffusion for Accident Video Description
+### Our Framework:
 ![The Framework Architecture](./images/Framework.png)
+
 ### This repository is an official implementation of AVD2: Accident Video Diffusion for Accident Video Description.
-Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Kairui Ding and Hao Zhao from Institute for AI Industry Research(AIR), Tsinghua University.
+Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Huan-ang Gao, Bu Jin and Hao Zhao from Institute for AI Industry Research(AIR), Tsinghua University.
 ### Our Project Video is available at:
 
 ### The First Work to Generat Accident Videos:
