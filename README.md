@@ -16,7 +16,7 @@ Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Huan-ang G
 We propose a novel framework, AVD2 (Accident Video Diffusion for Accident Video Description), which enhances transparency and explainability in autonomous driving systems by providing detailed natural language narrations and reasoning for accident scenarios. AVD2 jointly tackles both the accident description and prevention tasks, offering actionable insights through a shared video representation.This repository includes (will be released soon) the full implementation of AVD2, along with the training and evaluation setups, the generated accident dataset EMMAU dataset and the conda environment.
 
 # Note
-We have uploaded the requirement environment of our CATS system.  
+We have uploaded the requirement environment of our AVD2 system.  
 We have released the data preprocessing codes ("/root/src/prepro/") and the evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
 We have released the part of the preprocessed dataset of the EMMAU dataset ("/root/Processed_Dataset/"). And will released all of them.  
 We will soon release the entired code (including the checkpoints file) of the AVD2 system soon.  
@@ -34,7 +34,7 @@ The codes and more information about ADAPT and SCST can be found here:
 ## This is the example of the accident frames of our EMMAU dataset:  
 ![The example frame](./images/EMMAU_accident_example.png)  
 
-## This is the visualization of the Understanding ability of our CATS system (comparred with the ChatGPT-4 & ground truth):  
+## This is the visualization of the Understanding ability of our AVD2 system (comparred with the ChatGPT-4o & ground truth):  
 ### Accident example 1:  
 ![Example of EMMAU 1](./images/1_accident_2.png)  
 <span style="color:black">**AVD2 Prediction**</span>  
