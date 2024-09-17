@@ -1,8 +1,11 @@
 # AVD2: Accident Video Diffusion for Accident Video Description
 ![The Framework Architecture](./images/Framework.png)
-### This repository is an official implementation of CATS: Critical Adaptive Transformer for Self-driving Captions.
+### This repository is an official implementation of AVD2: Accident Video Diffusion for Accident Video Description.
 Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Kairui Ding and Hao Zhao from Institute for AI Industry Research(AIR), Tsinghua University.
 ### Our Project Video is available at:
+
+### The First Work to Generat Accident Videos:
+![The Teaser](./images/teaser.png)
 
 # Introduction
 We propose a novel framework, CATS (Critical Adaptive Transformer for Self-driving Captions), which enhances transparency and explainability in autonomous driving systems by providing detailed natural language narrations and reasoning for accident scenarios. CATS jointly tackles both the accident description and prevention tasks, offering actionable insights through a shared video representation.This repository includes (will be released soon) the full implementation of CATS, along with the training and evaluation setups, the generated accident dataset EMMAU dataset and the conda environment.
