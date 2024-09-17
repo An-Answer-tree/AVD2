@@ -27,7 +27,7 @@ We will soon upload the detailed instructions of the readme document (how to dep
 # More Details
 Our novel AVD2 framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
 The codes and more information about ADAPT and SCST can be found and referenced here:  
-[ADAPT: https://arxiv.org/pdf/2302.00673](https://arxiv.org/pdf/2302.00673)\\
+[ADAPT: https://arxiv.org/pdf/2302.00673](https://arxiv.org/pdf/2302.00673)
 [ADAPT codes: https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file](https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file)  
 [SCST: https://arxiv.org/abs/1612.00563](https://arxiv.org/abs/1612.00563)  
 [SCST codes: https://github.com/ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)
