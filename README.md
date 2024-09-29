@@ -10,7 +10,7 @@ Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Huan-ang G
 ![The Framework Architecture](./images/Framework.png)
 
 
-### Our Project Video is available at:
+### Our AVD2 Project Video is available at:
 [AVD2 Project Video: https://youtu.be/iGdSIofB_k8](https://youtu.be/iGdSIofB_k8)
 
 # Introduction
