@@ -11,7 +11,7 @@ Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Huan-ang G
 
 
 ### Our Project Video is available at:
-[AVD2 Video: https://youtu.be/iGdSIofB_k8](https://youtu.be/iGdSIofB_k8)
+[AVD2 Project Video: https://youtu.be/iGdSIofB_k8](https://youtu.be/iGdSIofB_k8)
 
 # Introduction
 We propose a novel framework, AVD2 (Accident Video Diffusion for Accident Video Description), which enhances transparency and explainability in autonomous driving systems by providing detailed natural language narrations and reasoning for accident scenarios. AVD2 jointly tackles both the accident description and prevention tasks, offering actionable insights through a shared video representation.This repository includes (will be released soon) the full implementation of AVD2, along with the training and evaluation setups, the generated accident dataset EMMAU dataset and the conda environment.
