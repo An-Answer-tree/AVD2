@@ -42,6 +42,7 @@ Need to change the name of the train.val/test dataset and the locations.
 cd src
 cd prepro
 sh preprocess.sh
+```
 
 ## Raw Dataset Download
 EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Part".  
