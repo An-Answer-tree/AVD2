@@ -37,6 +37,11 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 This part includes the Dataset Preprocessing code, the Raw Dataset (including the whole EMM-AU dataset) and the Processed Dataset.
 
 ## Dataset Preprocessing
+Need to change the name of the train.val/test dataset and the locations.
+```bash
+cd src
+cd prepro
+sh preprocess.sh
 
 ## Raw Dataset Download
 EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Part".  
