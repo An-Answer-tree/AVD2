@@ -25,10 +25,34 @@ We have released the .ckpt file of our fintuned improved Open-Sora 1.2 model.
 We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
 
 
-# Note
+# Getting Started
+## 1. Installation as Conda
+Create conda environment:
+```bash
+conda create --name ADAPT python=3.8
+```
+Install torch:
+```bash
+pip install torch==1.13.1+cu117 torchaudio==0.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+```
+Install apex:
+```bash
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --no-cache-dir --no-build-isolation --global-option="--cpp_ext" --global-option="--cuda_ext" --global-option="--deprecated_fused_adam" --global-option="--xentropy" --global-option="--fast_multihead_attn" ./
+cd ..
+rm -rf apex
+```
+Install mpi4py:
+```bash
+conda install -c conda-forge mpi4py openmpi
+```
+Install other dependencies and packages
+```bash
+pip install -r requirements.txt
+```
 
-
-# More Details for training
+# More Details for Framework
 Our novel AVD2 framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
 The codes and more information about ADAPT and SCST can be found and referenced here:  
 [ADAPT: https://arxiv.org/pdf/2302.00673](https://arxiv.org/pdf/2302.00673)  
