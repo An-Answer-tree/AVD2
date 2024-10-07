@@ -18,14 +18,17 @@ We propose a novel framework, AVD2 (Accident Video Diffusion for Accident Video 
 
 # Note
 We have uploaded the requirement environment of our AVD2 system.  
-We have released the data preprocessing codes ("/root/src/prepro/") and the evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
-We have released the part of the preprocessed dataset of the EMMAU dataset ("/root/Processed_Dataset/"). And will released all of them.  
-We will soon release the entired code (including the checkpoints file) of the AVD2 system soon.  
-We will soon release the dataset of the generated accident video (raw EMMAU dataset).   
-We will soon upload the finetuned Open-Sora 1.2 model, which is used for generating the EMMAU Dataset.  
-We will soon upload the detailed instructions of the readme document (how to deployment the project).  
+We have released the whole raw EMM-AU dataset (including raw MM-AU dataset and the raw generation videos.  
+We have released the whole processed dataset of the EMMAU dataset.  
+We have released the steps and codes for the data augmentation (including super-resolution code and the instructions for Open-Sora finetuning).
+We have released the .ckpt file of our fintuned improved Open-Sora 1.2 model.
+We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
 
-# More Details
+
+# Note
+
+
+# More Details for training
 Our novel AVD2 framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
 The codes and more information about ADAPT and SCST can be found and referenced here:  
 [ADAPT: https://arxiv.org/pdf/2302.00673](https://arxiv.org/pdf/2302.00673)  
