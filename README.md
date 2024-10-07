@@ -25,8 +25,7 @@ We have released the .ckpt file of our fintuned improved Open-Sora 1.2 model.
 We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
 
 
-# Getting Started
-## 1. Installation as Conda
+# Getting Started Environment
 Create conda environment:
 ```bash
 conda create --name ADAPT python=3.8
