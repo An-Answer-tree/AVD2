@@ -34,11 +34,39 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 [SCST codes: https://github.com/ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)  
 
 # Dataset
-EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and "The Enhanced Part".  
+EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Part".  
 | Parts             | Download             |
 |-------------------|----------------------|
 | Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
-| Enhanced Part     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |
+| Enhanced Part     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |  
+
+# Data Augmentation
+We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
+## Training for Open-Sora
+```bash
+# one node
+torchrun --standalone --nproc_per_node 8 scripts/train.py \
+    configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
+# multiple nodes
+colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
+    configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
+```
+## Inference for Open-Sora
+```bash
+# text to video
+python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
+  --num-frames 4s --resolution 720p --aspect-ratio 9:16 \
+  --prompt "a beautiful waterfall"
+# batch generation
+python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
+  --num-frames 4s --resolution 720p --aspect-ratio 9:16 \
+  --num-sampling-steps 30 --flow 5 --aes 6.5 \
+  --prompt-path "your_prompts.txt" \
+  --batch-size 1 \
+  --loop 1 \
+  --save-dir "your_save_dir" \
+  --ckpt-path "your_checkpoint"
+```
 
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
