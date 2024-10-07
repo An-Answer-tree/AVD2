@@ -33,7 +33,7 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 [SCST: https://arxiv.org/abs/1612.00563](https://arxiv.org/abs/1612.00563)  
 [SCST codes: https://github.com/ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)  
 
-# Dataset
+# Dataset Download
 EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Part".  
 | Parts             | Download             |
 |-------------------|----------------------|
@@ -42,7 +42,16 @@ EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Pa
 
 # Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
-## Training for Open-Sora
+## Fine-tuning for Open-Sora
+Before fine-tuning, you need to prepare a csv file. [HERE IS A METHOD](https://github.com/hpcaitech/Open-Sora/tree/feature/mirror_v1.2/tools/datasets#dataset-to-csv)  
+An example ready for training:
+```csv
+path, text, num_frames, width, height, aspect_ratio
+/absolute/path/to/image1.jpg, caption, 1, 720, 1280, 0.5625
+/absolute/path/to/video1.mp4, caption, 120, 720, 1280, 0.5625
+/absolute/path/to/video2.mp4, caption, 20, 256, 256, 1
+```
+Then use the bash command
 ```bash
 # one node
 torchrun --standalone --nproc_per_node 8 scripts/train.py \
@@ -57,7 +66,8 @@ colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
   --num-frames 4s --resolution 720p --aspect-ratio 9:16 \
   --prompt "a beautiful waterfall"
-# batch generation
+
+# batch generation(need a txt file, each line has a single prompt)
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
   --num-frames 4s --resolution 720p --aspect-ratio 9:16 \
   --num-sampling-steps 30 --flow 5 --aes 6.5 \
