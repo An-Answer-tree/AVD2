@@ -48,11 +48,11 @@ sh preprocess.sh
 ```
 
 ## Raw Dataset Download
-EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Part".  
+EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Generated Videos".  
 | Parts             | Download             |
 |-------------------|----------------------|
 | Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
-| Enhanced Part     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |  
+| Our Enhanced Generated Videos     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |  
 
 ## Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
