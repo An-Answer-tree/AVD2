@@ -51,7 +51,8 @@ path, text, num_frames, width, height, aspect_ratio
 /absolute/path/to/video1.mp4, caption, 120, 720, 1280, 0.5625
 /absolute/path/to/video2.mp4, caption, 20, 256, 256, 1
 ```
-Then use the bash command
+Then use the bash command to train new model or fine-tuned model(based on YOUR_PRETRAINED_CKPT).  
+You can also change the training config in "configs/opensora-v1-2/train/stage3.py"
 ```bash
 # one node
 torchrun --standalone --nproc_per_node 8 scripts/train.py \
