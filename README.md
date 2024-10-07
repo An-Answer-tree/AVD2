@@ -75,7 +75,7 @@ EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Ge
 | Parts             | Download             |
 |-------------------|----------------------|
 | Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
-| Our Enhanced Generated Videos     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |  
+| Our Enhanced Generated Videos     | [HuggingFace](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/EMM-AU(Enhanced%20Generated%20Videos).zip)         |  
 
 ## Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
@@ -99,6 +99,7 @@ colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
     configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
 ```
 ### Inference with Open-Sora
+You can Download our [pretrained model](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) for Accident Videos Generation.
 ```bash
 # text to video
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
@@ -126,6 +127,9 @@ Then running the RRDBNet model code within the Real-ESRGAN framework to do the s
 ```bash
 python realesrgan_utils.py
 ```
+
+# Download Pretrained Open-Sora model for Video Generation
+You can download the [checkpoint](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
 
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
