@@ -51,7 +51,7 @@ torchrun --standalone --nproc_per_node 8 scripts/train.py \
 colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
     configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
 ```
-## Inference for Open-Sora
+## Inference with Open-Sora
 ```bash
 # text to video
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
