@@ -28,7 +28,7 @@ We have released the data preprocessing codes ("/root/src/prepro/") and the mode
 # Getting Started Environment
 Create conda environment:
 ```bash
-conda create --name ADAPT python=3.8
+conda create --name AVD2 python=3.8
 ```
 Install torch:
 ```bash
@@ -114,6 +114,17 @@ python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
   --loop 1 \
   --save-dir YOUR_SAVE_DIR \
   --ckpt-path YOUR_CHECKPOINT
+```
+### RRDBNet Super-Resolution
+The conda environment for the super-resolution part can be installed as:
+```bash
+conda create --name S_R python=3.8
+cd src/Super_resolution
+pip install -r requirements.txt
+```
+Then running the RRDBNet model code within the Real-ESRGAN framework to do the super-resolution steps for the dataset.
+```bash
+python realesrgan_utils.py
 ```
 
 # Visualization
