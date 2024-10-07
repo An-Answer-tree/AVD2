@@ -61,11 +61,11 @@ python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
   --num-frames 4s --resolution 720p --aspect-ratio 9:16 \
   --num-sampling-steps 30 --flow 5 --aes 6.5 \
-  --prompt-path "your_prompts.txt" \
+  --prompt-path YOUR_PROMPT.TXT \
   --batch-size 1 \
   --loop 1 \
-  --save-dir "your_save_dir" \
-  --ckpt-path "your_checkpoint"
+  --save-dir YOUR_SAVE_DIR \
+  --ckpt-path YOUR_CHECKPOINT
 ```
 
 # Visualization
