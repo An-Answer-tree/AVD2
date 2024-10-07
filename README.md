@@ -33,16 +33,21 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 [SCST: https://arxiv.org/abs/1612.00563](https://arxiv.org/abs/1612.00563)  
 [SCST codes: https://github.com/ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)  
 
-# Dataset Download
+# Dataset
+This part includes the Dataset Preprocessing code, the Raw Dataset (including the whole EMM-AU dataset) and the Processed Dataset.
+
+## Dataset Preprocessing
+
+## Raw Dataset Download
 EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Part".  
 | Parts             | Download             |
 |-------------------|----------------------|
 | Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
 | Enhanced Part     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |  
 
-# Data Augmentation
+## Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
-## Fine-tuning for Open-Sora
+### Fine-tuning for Open-Sora
 Before fine-tuning, you need to prepare a csv file. [HERE IS A METHOD](https://github.com/hpcaitech/Open-Sora/tree/feature/mirror_v1.2/tools/datasets#dataset-to-csv)  
 An example ready for training:
 ```csv
@@ -61,7 +66,7 @@ torchrun --standalone --nproc_per_node 8 scripts/train.py \
 colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
     configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
 ```
-## Inference with Open-Sora
+### Inference with Open-Sora
 ```bash
 # text to video
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
