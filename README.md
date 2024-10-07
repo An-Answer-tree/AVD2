@@ -33,6 +33,13 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 [SCST: https://arxiv.org/abs/1612.00563](https://arxiv.org/abs/1612.00563)  
 [SCST codes: https://github.com/ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)  
 
+# Dataset
+EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and "The Enhanced Part".  
+| Parts             | Download             |
+|-------------------|----------------------|
+| Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
+| Enhanced Part     | [Google Drive](https://drive.google.com/file/d/1prm1Br-fwjr-ZkWNs8NvHJk_hcxvXuM2/view?usp=sharing)         |
+
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
 ![The example frame](./images/EMMAU_accident_example.png)  
