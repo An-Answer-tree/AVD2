@@ -1,1 +1,1 @@
-The raw data of EMMAU datasets will be released soon by the Google Drive  Link.
+The raw data and the processed data of EMMAU datasets has been released by the Huggingface Storage Link.
