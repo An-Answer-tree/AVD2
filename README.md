@@ -6,7 +6,7 @@
 ### This repository is an official implementation of AVD2: Accident Video Diffusion for Accident Video Description.
 Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Huan-ang Gao, Bu Jin and Hao Zhao from Institute for AI Industry Research(AIR), Tsinghua University.
 
-### Our Framework:
+### Our System Framework:
 ![The Framework Architecture](./images/Framework.png)
 
 
@@ -51,8 +51,8 @@ Install other dependencies and packages
 pip install -r requirements.txt
 ```
 
-# More Details for Framework
-Our novel AVD2 framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
+# More Details for our System
+Our AVD2 framework is based on the Action-aware Driving Caption Transformer (ADAPT) and Self Critical Sequence Training (SCST).  
 The codes and more information about ADAPT and SCST can be found and referenced here:  
 [ADAPT: https://arxiv.org/pdf/2302.00673](https://arxiv.org/pdf/2302.00673)  
 [ADAPT codes: https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file](https://github.com/jxbbb/ADAPT/tree/main?tab=MIT-1-ov-file)  
