@@ -147,7 +147,7 @@ Here, we provided the right Transformed data format ("/root/evaluation/ground_tr
 Then run the testing/evaluation codes here:
 ```bash
 pip install pycocoevalcap -i https://pypi.tuna.tsinghua.edu.cn/simple
-/*or
+# or
 pip install pycocoevalcap
 python pycocoevaluationmetric.py
 ```
