@@ -60,7 +60,7 @@ The codes and more information about ADAPT and SCST can be found and referenced 
 [SCST codes: https://github.com/ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)  
 
 # Dataset
-This part includes the Dataset Preprocessing code, the Raw Dataset (including the whole EMM-AU dataset), the steps to do the data augmentation and the Processed Dataset.
+This part includes the Dataset Preprocessing code, the Raw Dataset (including the whole EMM-AU dataset), the codes and steps to do the data augmentation and the Processed Dataset.
 
 ## Dataset Preprocessing
 Need to change the name of the train/val/test dataset and the locations.
