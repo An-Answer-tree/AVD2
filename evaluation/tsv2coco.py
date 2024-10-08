@@ -3,7 +3,7 @@ import json
 import re
 
 # 读取TSV文件
-tsv_file = '/root/lic/ADAPT-main/outputCATSEE/multitask/sensor_course_speed/checkpoint-42-22680/pred.BDDX.testing_32frames.beam1.max105.tsv'
+tsv_file = '/root/lic/ADAPT-main/outputCATSEE/multitask/sensor_course_speed/checkpoint-XX-XXXX/pred.BDDX.testing_28frames.beam1.max105.tsv'
 df = pd.read_csv(tsv_file, sep='\t', header=None, names=['video_id', 'captions1', 'captions2'])
 
 # 将TSV文件转换为两个 COCO 格式
