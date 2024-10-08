@@ -22,7 +22,7 @@ We have released the whole raw EMM-AU dataset (including raw MM-AU dataset and t
 We have released the whole processed dataset of the EMM-AU dataset.  
 We have released the instructions and codes for the data augmentation (including super-resolution code and the instructions for Open-Sora finetuning).  
 We have released the checkpoint file of our fintuned improved Open-Sora 1.2 model.   
-We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/src/evalcap/") of the project.    
+We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/src/evalcap/"&"/root/evaluation/") of the project.    
 
 
 # Getting Started Environment
@@ -146,8 +146,10 @@ python json2coco.py
 Here, we provided the right Transformed data format ("/root/evaluation/ground_truth_captions1", "/root/evaluation/ground_truth_captions2","/root/evaluation/generated_captions1","/root/evaluation/generated_captions1").
 Then run the testing/evaluation codes here:
 ```bash
+pip install pycocoevalcap -i https://pypi.tuna.tsinghua.edu.cn/simple
+/*or
 pip install pycocoevalcap
-python pycocoevalbleu
+python pycocoevaluationmetric.py
 ```
 
 # Visualization
