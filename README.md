@@ -129,7 +129,8 @@ python realesrgan_utils.py
 ```
 
 ## Processed Dataset Download
-You can download the [Processed_EMM-AU_Dataset](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/Processed_EMM-AU_Dataset.zip) in our HuggingFace.
+You can download the [Processed_EMM-AU_Dataset](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/Processed_EMM-AU_Dataset.zip) in our HuggingFace.  
+All of the captions (annotations) for the 2000 generated videos has been released in the ("root/Process_Dataset/generated_2000videos_captions.json").  
 
 # Download Our Fine-tuned Open-Sora 1.2 model for Video Generation
 You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) in our HuggingFace.
