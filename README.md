@@ -77,9 +77,6 @@ EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Ge
 | Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
 | Our Enhanced Generated Videos     | [HuggingFace](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/EMM-AU(Enhanced%20Generated%20Videos).zip)         |  
 
-## Processed Dataset Download
-You can download the [Processed_EMM-AU_Dataset](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
-
 ## Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
 ### Fine-tuning for Open-Sora
@@ -130,6 +127,9 @@ Then running the RRDBNet model code within the Real-ESRGAN framework to do the s
 ```bash
 python realesrgan_utils.py
 ```
+
+## Processed Dataset Download
+You can download the [Processed_EMM-AU_Dataset](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/Processed_EMM-AU_Dataset.zip) in our HuggingFace.
 
 # Download Our Fine-tuned Open-Sora 1.2 model for Video Generation
 You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) in our HuggingFace.
