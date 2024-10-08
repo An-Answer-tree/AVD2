@@ -79,7 +79,7 @@ EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Ge
 
 ## Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
-### Fine-tuning for Open-Sora
+### Fine-tuning for Open-Sora 1.2
 Before fine-tuning, you need to prepare a csv file. [HERE IS A METHOD](https://github.com/hpcaitech/Open-Sora/tree/feature/mirror_v1.2/tools/datasets#dataset-to-csv)  
 An example ready for training:
 ```csv
@@ -98,7 +98,7 @@ torchrun --standalone --nproc_per_node 8 scripts/train.py \
 colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
     configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
 ```
-### Inference with Open-Sora
+### Inference with Open-Sora 1.2
 You can Download our [pretrained model](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) for Accident Videos Generation.
 ```bash
 # text to video
@@ -133,7 +133,7 @@ You can download the [Processed_EMM-AU_Dataset](https://huggingface.co/datasets/
 All of the captions (annotations) for the 2000 generated videos has been released in the ("root/Process_Dataset/generated_2000videos_captions.json").  
 
 # Download Our Fine-tuned Open-Sora 1.2 model for Video Generation
-You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) in our HuggingFace.
+You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) in our HuggingFace. This is our improved pretrained Open-Sora 1.2 model by 2 steps fine-tuning based on the original official pretrained Open-Sora.
 
 # Testing/Evaluation
 You can download the output from the ("/root/output/checkpoint")
