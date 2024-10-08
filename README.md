@@ -20,9 +20,9 @@ We propose a novel framework, AVD2 (Accident Video Diffusion for Accident Video 
 We have uploaded the required environment of our AVD2 system.  
 We have released the whole raw EMM-AU dataset (including raw MM-AU dataset and the raw generation videos.  
 We have released the whole processed dataset of the EMM-AU dataset.  
-We have released the instructions and codes for the data augmentation (including super-resolution code and the instructions for Open-Sora finetuning).
-We have released the checkpoint file of our fintuned improved Open-Sora 1.2 model.  
-We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
+We have released the instructions and codes for the data augmentation (including super-resolution code and the instructions for Open-Sora finetuning).  
+We have released the checkpoint file of our fintuned improved Open-Sora 1.2 model.   
+We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.    
 
 
 # Getting Started Environment
