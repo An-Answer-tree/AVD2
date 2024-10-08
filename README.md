@@ -132,7 +132,7 @@ python realesrgan_utils.py
 ```
 
 # Download Our Fine-tuned Open-Sora 1.2 model for Video Generation
-You can download the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
+You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
 
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
