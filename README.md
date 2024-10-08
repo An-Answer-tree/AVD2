@@ -102,7 +102,7 @@ colossalai run --nproc_per_node 8 --hostfile hostfile scripts/train.py \
     configs/opensora-v1-2/train/stage3.py --data-path YOUR_CSV_PATH --ckpt-path YOUR_PRETRAINED_CKPT
 ```
 ### Inference with Open-Sora
-You can Download our [pretrained model](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) for Accident Videos Generation.
+You can Download our [pretrained model](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) for Accident Videos Generation.
 ```bash
 # text to video
 python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
@@ -132,7 +132,7 @@ python realesrgan_utils.py
 ```
 
 # Download Our Fine-tuned Open-Sora 1.2 model for Video Generation
-You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
+You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) in our HuggingFace.
 
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
