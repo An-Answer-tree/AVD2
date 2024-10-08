@@ -144,14 +144,13 @@ python tsv2coco.py
 python json2coco.py
 ```
 Here, we provided the right Transformed data format ("/root/evaluation/ground_truth_captions1", "/root/evaluation/ground_truth_captions2","/root/evaluation/generated_captions1","/root/evaluation/generated_captions1").
-Then run the testing/evaluation codes here:
+Then, you can run the testing/evaluation codes here:
 ```bash
 pip install pycocoevalcap -i https://pypi.tuna.tsinghua.edu.cn/simple
 # or
 pip install pycocoevalcap
 python pycocoevaluationmetric.py
 ```
-
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
 ![The example frame](./images/EMMAU_accident_example.png)  
