@@ -17,11 +17,11 @@ Created by Cheng Li, Keyuan Zhou, Tong Liu, Yu Wang, Mingqiao Zhuang, Huan-ang G
 We propose a novel framework, AVD2 (Accident Video Diffusion for Accident Video Description), which enhances transparency and explainability in autonomous driving systems by providing detailed natural language narrations and reasoning for accident scenarios. AVD2 jointly tackles both the accident description and prevention tasks, offering actionable insights through a shared video representation.This repository includes (will be released soon) the full implementation of AVD2, along with the training and evaluation setups, the generated accident dataset EMMAU dataset and the conda environment.
 
 # Note
-We have uploaded the requirement environment of our AVD2 system.  
+We have uploaded the required environment of our AVD2 system.  
 We have released the whole raw EMM-AU dataset (including raw MM-AU dataset and the raw generation videos.  
-We have released the whole processed dataset of the EMMAU dataset.  
-We have released the steps and codes for the data augmentation (including super-resolution code and the instructions for Open-Sora finetuning).
-We have released the .ckpt file of our fintuned improved Open-Sora 1.2 model.  
+We have released the whole processed dataset of the EMM-AU dataset.  
+We have released the instructions and codes for the data augmentation (including super-resolution code and the instructions for Open-Sora finetuning).
+We have released the checkpoint file of our fintuned improved Open-Sora 1.2 model.  
 We have released the data preprocessing codes ("/root/src/prepro/") and the model evaluation codes ("/root/lic/ADAPT-main/src/evalcap/") of the project.  
 
 
@@ -77,6 +77,9 @@ EMM-AU(Enhanced MM-AU Dataset) contains "Raw MM-AU Dataset" and the "Enhanced Ge
 | Raw MM-AU Dataset | [Official Github Page](https://github.com/jeffreychou777/LOTVS-MM-AU?tab=readme-ov-file#datasets-download) |
 | Our Enhanced Generated Videos     | [HuggingFace](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/EMM-AU(Enhanced%20Generated%20Videos).zip)         |  
 
+## Processed Dataset Download
+You can download the [Processed_EMM-AU_Dataset](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
+
 ## Data Augmentation
 We utilized Project [Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) to inference the "Enhanced Part" of EMM-AU. You can reference Open-Sora Official GitHub Page for installation.
 ### Fine-tuning for Open-Sora
@@ -128,8 +131,8 @@ Then running the RRDBNet model code within the Real-ESRGAN framework to do the s
 python realesrgan_utils.py
 ```
 
-# Download Pretrained Open-Sora model for Video Generation
-You can download the [checkpoint](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
+# Download Our Fine-tuned Open-Sora 1.2 model for Video Generation
+You can download the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/tree/main) in our HuggingFace.
 
 # Visualization
 ## This is the example of the accident frames of our EMMAU dataset:  
