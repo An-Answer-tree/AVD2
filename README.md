@@ -136,14 +136,14 @@ All of the captions (annotations) for the 2000 generated videos has been release
 You can download the checkpoint of the [pretrained_model_for_video_generation](https://huggingface.co/datasets/secsecret/EMM-AU/blob/main/pretrained_model_for_video_generation.zip) in our HuggingFace. This is our improved pretrained Open-Sora 1.2 model by 2 steps fine-tuning based on the original official pretrained Open-Sora.
 
 # Testing/Evaluation
-You can download the output from the ("/root/output/checkpoint")
-To evaluate the output, you need to Modify the data format firstly:
+You can download the output from the ("/root/output/checkpoint")  
+To evaluate the output, you need to Modify the data format firstly:  
 ```bash
 cd evaluation
 python tsv2coco.py
 python json2coco.py
 ```
-Here, we provided the right Transformed data format ("/root/evaluation/ground_truth_captions1", "/root/evaluation/ground_truth_captions2","/root/evaluation/generated_captions1","/root/evaluation/generated_captions1").
+Here, we provided the right Transformed data format ("/root/evaluation/ground_truth_captions1", "/root/evaluation/ground_truth_captions2","/root/evaluation/generated_captions1","/root/evaluation/generated_captions1").  
 Then, you can run the testing/evaluation codes here:
 ```bash
 pip install pycocoevalcap -i https://pypi.tuna.tsinghua.edu.cn/simple
