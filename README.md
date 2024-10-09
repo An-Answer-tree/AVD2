@@ -152,7 +152,7 @@ pip install pycocoevalcap
 python pycocoevaluationmetric.py
 ```
 # Visualization
-## This is the example of the accident frames of our EMMAU dataset:  
+## These are the random examples of the generated accident frames in our EMMAU dataset:  
 ![The example frame](./images/EMMAU_accident_example.png)  
 
 ## This is the visualization of the Understanding ability of our AVD2 system (comparred with the ChatGPT-4o & ground truth):  
