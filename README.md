@@ -6,10 +6,10 @@
 
 ### This repository is an official implementation of AVD2: Accident Video Diffusion for Accident Video Description.
 **Created by:**  
-Cheng Li$^{1,2,*}$, Keyuan Zhou$^{1,3,*}$, Tong Liu$^{1,4,*}$, Yu Wang$^{1,5,*}$, Mingqiao Zhuang$^{6}$,  
+Cheng Li$^{1,2}$, Keyuan Zhou$^{1,3}$, Tong Liu$^{1,4}$, Yu Wang$^{1,5}$, Mingqiao Zhuang$^{6}$,  
 Huan-ang Gao$^{1}$, Bu Jin$^{1}$, and Hao Zhao$^{1,7,8,\dagger}$
 
-\* Indicates equal contribution.  
+* Indicates equal contribution.  
 \dagger The corresponding author.  
 
 **Affiliations:**  
