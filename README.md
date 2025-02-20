@@ -9,7 +9,7 @@
 Cheng Li<sup>[1,2,&ast;]</sup>, Keyuan Zhou<sup>[1,3,&ast;]</sup>, Tong Liu<sup>[1,4,&ast;]</sup>, Yu Wang<sup>[1,5,&ast;]</sup>, Mingqiao Zhuang<sup>[6]</sup>,  
 Huan-ang Gao<sup>[1]</sup>, Bu Jin<sup>[1]</sup>, and Hao Zhao<sup>[1,7,8,†]</sup>
 
-* Indicates equal contribution.  
+&ast Indicates equal contribution.  
 † The corresponding author.
 
 **Affiliations:**  
