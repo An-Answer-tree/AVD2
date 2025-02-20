@@ -6,8 +6,8 @@
 
 ### This repository is an official implementation of AVD2: Accident Video Diffusion for Accident Video Description.
 **Created by:**  
-Cheng Li^1,2^, Keyuan Zhou^1,3^, Tong Liu^1,4^, Yu Wang^1,5^, Mingqiao Zhuang^6^,  
-Huan-ang Gao^1^, Bu Jin^1^, and Hao Zhao^1,7,8,†
+Cheng Li^[1,2]^, Keyuan Zhou^[1,3]^, Tong Liu^[1,4]^, Yu Wang^[1,5]^, Mingqiao Zhuang^[6]^,  
+Huan-ang Gao^[1]^, Bu Jin^[1]^, and Hao Zhao^[1,7,8,†]^
 
 * Indicates equal contribution.  
 † The corresponding author.
@@ -21,7 +21,6 @@ Huan-ang Gao^1^, Bu Jin^1^, and Hao Zhao^1,7,8,†
 6. College of Foreign Language and Literature, Fudan University.  
 7. Beijing Academy of Artificial Intelligence (BAAI).  
 8. Lightwheel AI.
-
 
 ### Our System Framework:
 ![The Framework Architecture](./images/Framework.png)
