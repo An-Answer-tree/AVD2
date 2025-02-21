@@ -153,6 +153,7 @@ You can download the checkpoint of the [pretrained_model_for_video_generation](h
 
 # Train the Basic Model
 ```bash
+conda activate AVD2
 sh scripts/BDDX_multitask.sh
 ```
 
