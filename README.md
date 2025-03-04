@@ -23,7 +23,7 @@ Huan-ang Gao<sup>[1]</sup>, Bu Jin<sup>[1]</sup>, and Hao Zhao<sup>[1,7,8,†]</
 8. Lightwheel AI.
 
 ### Our System Framework:
-![The Framework Architecture](./images/Framework.png)
+![The Framework Architecture](./images/FrameWork.png)
 
 
 ### Our AVD2 Project Video is available at:
