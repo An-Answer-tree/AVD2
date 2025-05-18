@@ -1,3 +1,4 @@
+# This is the code we divided the original MMAU dataset into val, test and train
 import os
 import random
 import shutil
