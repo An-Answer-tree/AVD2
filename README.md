@@ -139,9 +139,18 @@ conda create --name S_R python=3.8
 cd src/Super_resolution
 pip install -r requirements.txt
 ```
+Also, you may need to install these two code-base:
+The first one:
+```bash
+pip install git+https://github.com/XPixelGroup/BasicSR.git
+```
+The second one:
+```bash
+pip install git+https://github.com/xinntao/Real-ESRGAN.git
+```
 Then running the RRDBNet model code within the Real-ESRGAN framework to do the super-resolution steps for the dataset.
 ```bash
-python realesrgan_utils.py
+python Super_Resolution.py
 ```
 
 ## Processed Dataset Download
