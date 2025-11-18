@@ -132,6 +132,7 @@ python scripts/inference.py configs/opensora-v1-2/inference/sample.py \
   --save-dir YOUR_SAVE_DIR \
   --ckpt-path YOUR_CHECKPOINT
 ```
+
 ### RRDBNet Super-Resolution
 The conda environment for the super-resolution part can be installed as:
 ```bash
